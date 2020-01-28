@@ -41,7 +41,33 @@ h1 {
     margin-top: 0px;
 }
 
-.dropbtn {
-    font-size: 24px;
-    text-decoration: none;
+img {
+    display: flex;
+    justify-content: space-between;
+    border-radius: 50%;
+    float: left;
+    padding: 20px;
+    margin-left: 150px;
+    margin-top: 120px;
+    box-shadow: 2px 2px 2px grey;
 }
+
+img:hover {
+    box-shadow: 6px 6px 6px grey;
+}
+
+.list-content {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.list-content a {
+    color: black;
+    text-decoration: none;
+    display: block;
+}
+
