@@ -28,12 +28,14 @@ nav a {
     color: black;
     font-size: 24px;
     padding-inline-end: 20px;
+    font-family: 'Dancing Script', cursive;
 }
 h1 {
     padding-top: 100px;
     font-size: 50px;
     text-align: center;
     color: black;
+    font-family: 'Open Sans Condensed', sans-serif;
 }
 *{
     margin-left: auto;
@@ -64,17 +66,16 @@ img:hover {
   .dropdown-content {
     display: none;
     position: absolute;
-    background-color:rgb(28, 37, 37);
     opacity: .8;
     min-width: 300px;
     z-index: 1;
-    border-radius: 20%;
+    border-radius: 90%;
     text-align: center;
     font-size: 24px;
     
   }
   .dropdown-content a {
-    color: rgb(247, 246, 242);
+    color: rgb(4, 28, 245);
     padding: 12px 16px;
     text-decoration: none;
     display: inline-block;
