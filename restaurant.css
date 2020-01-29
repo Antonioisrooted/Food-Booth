@@ -107,24 +107,12 @@ h2 {
 }
 
 
-.footer .footer-content {
+.footer .footer-top {
     display: flex;
     height: 350px;
 }
 
-
-
-.footer .footer-content .logo-text span {
-    color: aqua;
-}
-
-
-.footer .footer-content h2 .logo-text {
-    margin-left: 0px;
-    margin-top: 0px;
-}
-
-h3 {
-    color: aqua;    
-    text-shadow: 4px 4px 4px  gold;
+.footer .footer-top h4 {
+    flex: 1;
+    border: 2px solid white;
 }
