@@ -1,3 +1,7 @@
+html, body  {
+    height: 100%;
+}
+
 header {
     background-color: #BCDFDF;
     width: 100%;
@@ -12,12 +16,9 @@ aside {
     background-color: white;
     width: 100%;
     height: max-content;
+    min-height: 100%;
 }
-footer {
-    background-color: rgb(116, 101, 101);
-    width: 100%;
-    height:300px;
-}
+
 nav {
     background-color: #BCDFDF;
     float: right;
@@ -85,4 +86,45 @@ h2 {
     margin-left: 650px;
     margin-top: 0px;
 }
-.restaurant
+.footer {
+     background-color: #303036 ;
+     color: #d3d3d3;
+     height: 400px;
+     position: relative;
+}
+
+.footer .footer-bottom {
+    background-color: #343a40;
+    color: #686868;
+    height: 50px;
+    text-align: center;
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+    padding-top: 20px;
+    width: 100%;
+
+}
+
+
+.footer .footer-content {
+    display: flex;
+    height: 350px;
+}
+
+
+
+.footer .footer-content .logo-text span {
+    color: aqua;
+}
+
+
+.footer .footer-content h2 .logo-text {
+    margin-left: 0px;
+    margin-top: 0px;
+}
+
+h3 {
+    color: aqua;    
+    text-shadow: 4px 4px 4px  gold;
+}
