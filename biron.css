@@ -1,17 +1,17 @@
 header {
     background-color: #BCDFDF;
     width: 100%;
-    height: 100px;
+    height: 300px;
 }
 main {
-    background-color: #BCDFDF;
+    background-color: #BCDFDF ;
     width: 100%;
-    height: 700px;
+    height: 400px;
 }
 aside {
     background-color: white;
     width: 100%;
-    height: 1000px;
+    height: 800px;
 }
 
 nav {
@@ -24,14 +24,13 @@ nav a {
     color: black;
     font-size: 24px;
     padding-inline-end: 20px;
-    font-family: 'Dancing Script', cursive;
+
 }
 h1 {
-    padding-top: 100px;
+    padding-top: 70px;
     font-size: 50px;
     text-align: center;
     color: black;
-    font-family: 'Open Sans Condensed', sans-serif;
 }
 *{
     margin-left: auto;
@@ -45,7 +44,7 @@ img {
     border-radius: 50%;
     float: left;
     margin-left: 100px;
-    margin-top: 100px;
+    margin-top: 20px;
     padding: 10px;
     box-shadow: 2px 2px 2px grey;
 }
@@ -75,7 +74,6 @@ img:hover {
     padding: 12px 16px;
     text-decoration: none;
     display: inline-block;
-    position: ;
   }
   .dropdown-content a:hover {background-color:none ;
         opacity: .8;
@@ -141,7 +139,7 @@ img:hover {
 }
 
 
-.footer .footer-top img: :hover {
+.footer .footer-top img:hover {
     box-shadow: 6px 6px 6px grey;
 }
 
@@ -151,4 +149,9 @@ img:hover {
 }
 .footer .footer-top h4 p b {
     color: black;
+}
+
+ .icons a img {
+    padding: 10px;
+
 }
