@@ -1,0 +1,144 @@
+header {
+  background-color:#BCDFDF;
+  width: 100%;
+  height: 300px;
+}
+main {
+  background-color: #BCDFDF;
+  width: 100%;
+  height: 50px;
+}
+aside {
+    background-color: white;
+    width: 100%;
+    height: 1300px;
+}
+
+.footer {
+  background-color: #303036 ;
+  color: #D3D3D3;
+  height: 400px;
+  position: relative;
+  font-size: 18px;
+}
+.footer .footer-bottom {
+ background-color: #343A40;
+ color: #686868;
+ height: 50px;
+ text-align: center;
+ position: absolute;
+ bottom: 0px;
+ left: 0px;
+ padding-top: 20px;
+ width: 100%;
+}
+.footer .footer-top {
+ display: flex;
+ height: 350px;
+}
+.footer .footer-top h4 {
+ flex: 1;
+ border: 2px solid white;
+ margin-left: 30px;
+ margin-top: 10px;
+ text-align: center;
+}
+.footer .footer-top h4 span {
+ color: aqua;
+ font-size: 30px;
+ font-family: 'Open Sans Condensed', sans-serif;
+}
+.footer .footer-top img {
+  margin-left: 5px;
+  border-radius: 30%;
+  box-shadow: 2px 2px 2px grey;
+  margin: 0px;
+  float: left;
+}
+.footer .footer-top img :hover {
+  box-shadow: 6px 6px 6px grey;
+}
+.footer .footer-top h4 p {
+  font-size: 20px;
+}
+.footer .footer-top h4 p b {
+  color: black;
+}
+
+nav {
+    background-color:#BCDFDF;
+    float: right;
+    padding-top: 10px;
+}
+nav a {
+    text-decoration: none;
+    color: black;
+    font-size: 24px;
+    padding-inline-end: 20px;
+}
+h1 {
+    padding-top: 100px;
+    font-size: 50px;
+    text-align: center;
+    color: black;
+}
+*{
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 0px;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #e9f0f1;
+  min-width: 300px;
+  
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content a:hover {background-color: #eb2a2a}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.dropdown:hover .dropbtn {
+  background-color: #3e8e41;
+}
+img{
+  height:200px ;
+  width:300px ;
+  padding: 20px;
+  border-radius: 20%;
+}
+h2{
+  text-align: center;
+
+}
+span{
+  color: #eb2a2a;
+  font: 2em sans-serif;
+
+}
